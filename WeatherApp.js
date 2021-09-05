@@ -11,7 +11,7 @@ const monthNames = ["January", "February", "March", "April", "May", "June","July
 const dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 function getWeather(search){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=c3dec822c50ad79006a327af93c411d2`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=d30129c9ae33d973650bc52b1cdcc34d`)
     .then((res)=>{
         const data = res.json();
         return data;
